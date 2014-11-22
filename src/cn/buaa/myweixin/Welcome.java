@@ -40,7 +40,7 @@ public class Welcome extends Activity {
     public static Boolean getPlayer(){
     	return isPlayer;
     }
-    public  void setPlayer(Boolean isP){
+    public static void setPlayer(Boolean isP){
     	 isPlayer = isP;
     }
     

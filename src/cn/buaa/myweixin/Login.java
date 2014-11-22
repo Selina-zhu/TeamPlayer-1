@@ -25,8 +25,15 @@ public class Login extends Activity {
     }
 
     public void login_mainweixin(View v) {
-    	if("DST2".equals(mUser.getText().toString()) && "123".equals(mPassword.getText().toString()))   //≈–∂œ ’ ∫≈∫Õ√‹¬Î
+    	if("Player".equals(mUser.getText().toString()) && "123".equals(mPassword.getText().toString()))   //≈–∂œ ’ ∫≈∫Õ√‹¬Î
         {
+    		 Welcome.setPlayer(true);
+             Intent intent = new Intent();
+             intent.setClass(Login.this,LoadingActivity.class);
+             startActivity(intent);
+             //Toast.makeText(getApplicationContext(), "µ«¬º≥…π¶", Toast.LENGTH_SHORT).show();
+          } else if("Coach".equals(mUser.getText().toString()) && "123".equals(mPassword.getText().toString())) {
+    		 Welcome.setPlayer(false);
              Intent intent = new Intent();
              intent.setClass(Login.this,LoadingActivity.class);
              startActivity(intent);
