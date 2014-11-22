@@ -1,9 +1,10 @@
-package cn.buaa.myweixin;
-import com.selina.teamplayer.R;
+package com.selina.teamplayer;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import com.selina.teamplayer.R;
 
 public class PlayerRegister extends Activity {
 	

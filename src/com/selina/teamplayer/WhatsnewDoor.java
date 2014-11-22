@@ -1,5 +1,5 @@
-package cn.buaa.myweixin;
-import com.selina.teamplayer.R;
+package com.selina.teamplayer;
+
 
 
 import android.os.Bundle;
@@ -14,6 +14,7 @@ import android.view.animation.ScaleAnimation;
 import android.view.animation.TranslateAnimation;
 import android.widget.ImageView;
 import android.widget.TextView;
+import com.selina.teamplayer.R;
 
 public class WhatsnewDoor extends Activity {
 	

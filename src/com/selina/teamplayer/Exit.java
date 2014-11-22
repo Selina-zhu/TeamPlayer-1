@@ -1,6 +1,5 @@
-package cn.buaa.myweixin;
+package com.selina.teamplayer;
 
-import com.selina.teamplayer.R;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,6 +8,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.LinearLayout;
 import android.widget.Toast;
+import com.selina.teamplayer.R;
 
 public class Exit extends Activity {
 	//private MyDialog dialog;

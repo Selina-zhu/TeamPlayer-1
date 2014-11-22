@@ -1,10 +1,11 @@
-package cn.buaa.myweixin;
-import com.selina.teamplayer.R;
+package com.selina.teamplayer;
+
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
 import android.view.View;
 import android.widget.EditText;
+import com.selina.teamplayer.R;
 
 public class InfoXiaohei extends Activity {
 	@Override

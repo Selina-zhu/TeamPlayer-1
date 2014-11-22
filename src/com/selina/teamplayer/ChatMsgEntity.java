@@ -1,5 +1,5 @@
 
-package cn.buaa.myweixin;
+package com.selina.teamplayer;
 
 public class ChatMsgEntity {
     private static final String TAG = ChatMsgEntity.class.getSimpleName();

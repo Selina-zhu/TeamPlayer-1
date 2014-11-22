@@ -1,20 +1,18 @@
 
-package cn.buaa.myweixin;
-import com.selina.teamplayer.R;
+package com.selina.teamplayer;
+
 import android.R.integer;
 import android.content.Context;
 import android.database.DataSetObserver;
-
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
 import android.widget.BaseAdapter;
 import android.widget.CheckBox;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-
+import com.selina.teamplayer.R;
 import java.util.ArrayList;
 import java.util.List;
 

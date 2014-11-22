@@ -1,5 +1,5 @@
-package cn.buaa.myweixin;
-import com.selina.teamplayer.R;
+package com.selina.teamplayer;
+
 import android.net.Uri;
 import android.os.Bundle;
 import android.app.Activity;
@@ -9,6 +9,7 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
+import com.selina.teamplayer.R;
 
 public class Login extends Activity {
 	private EditText mUser; // ÕÊºÅ±à¼­¿ò

@@ -1,6 +1,6 @@
-package cn.buaa.myweixin;
+package com.selina.teamplayer;
 
-import com.selina.teamplayer.R;
+
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -9,6 +9,7 @@ import android.content.Intent;
 import android.view.Menu;
 import android.view.MotionEvent;
 import android.view.WindowManager;
+import com.selina.teamplayer.R;
 
 public class InfoXiaoheiHead extends Activity{
 

@@ -1,11 +1,11 @@
-package cn.buaa.myweixin;
-import com.selina.teamplayer.R;
+package com.selina.teamplayer;
 
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
+import com.selina.teamplayer.R;
 
 public class Welcome extends Activity {
 	 static public Boolean isPlayer = false;

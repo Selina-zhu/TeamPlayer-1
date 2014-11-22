@@ -1,5 +1,5 @@
-package cn.buaa.myweixin;
-import com.selina.teamplayer.R;
+package com.selina.teamplayer;
+
 
 
 
@@ -9,6 +9,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.view.Menu;
 import android.view.WindowManager;
+import com.selina.teamplayer.R;
 
 public class Appstart extends Activity{
 

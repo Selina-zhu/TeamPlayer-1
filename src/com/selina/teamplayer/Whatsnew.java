@@ -1,5 +1,5 @@
-package cn.buaa.myweixin;
-import com.selina.teamplayer.R;
+package com.selina.teamplayer;
+
 import java.util.ArrayList;
 import android.os.Bundle;
 import android.app.Activity;
@@ -14,6 +14,7 @@ import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.TranslateAnimation;
 import android.widget.ImageView;
+import com.selina.teamplayer.R;
 
 public class Whatsnew extends Activity {
 	

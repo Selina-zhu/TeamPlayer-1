@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.selina.teamplayer"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionCode="2"
+    android:versionName="1.01" >
 
     <uses-sdk
         android:minSdkVersion="17"
@@ -35,7 +35,7 @@
          >
         
         <activity
-            android:name=".Appstart"
+            android:name="com.selina.teamplayer.Appstart"
             android:label="@string/title_activity_main"
             android:theme="@style/Anim_style2" >
             <intent-filter>
@@ -49,22 +49,22 @@
     android:value="AIzaSyBtdNnNC-lLGYiY6qBszecMKNVYLOu8aW0"/>  
     <meta-data android:name="com.google.android.gms.version"
            android:value="@integer/google_play_services_version" />
-        <activity android:name=".WhatsnewDoor" android:theme="@style/Anim_style2" />
-        <activity android:name=".MainWeixin" android:theme="@style/Anim_style2" />
-        <activity android:name=".Login"  android:theme="@android:style/Theme.NoTitleBar" />        
-        <activity android:name=".Welcome"  android:theme="@style/Anim_style2"  />
-        <activity android:name=".PlayerRegister"  android:theme="@style/Anim_style2"  />
-            <activity android:name=".googlemap"  android:theme="@style/Anim_style2" />
-             <activity android:name=".Checkin"  android:theme="@style/Anim_style2" />
-        <activity android:name=".Whatsnew"  android:theme="@style/Anim_style2" />
-        <activity android:name=".ChatActivity"  android:theme="@android:style/Theme.NoTitleBar" />
-        <activity android:name=".ShakeActivity"  android:theme="@android:style/Theme.NoTitleBar" />
-        <activity android:name=".InfoXiaohei"  android:theme="@android:style/Theme.NoTitleBar" />
-        <activity android:name="Exit" android:theme="@style/MyDialogStyle" />        
-        <activity android:name="ExitFromSettings" android:theme="@style/MyDialogStyleBottom" /> 
-        <activity android:name="InfoXiaoheiHead" android:theme="@style/HeadScale" />
-        <activity android:name="LoadingActivity" android:theme="@style/MyDialogStyle" />             
-        <activity android:name="MainTopRightDialog" android:theme="@style/MyDialogStyleTop" /> 
+        <activity android:name="com.selina.teamplayer.WhatsnewDoor" android:theme="@style/Anim_style2" />
+        <activity android:name="com.selina.teamplayer.MainWeixin" android:theme="@style/Anim_style2" />
+        <activity android:name="com.selina.teamplayer.Login"  android:theme="@android:style/Theme.NoTitleBar" />        
+        <activity android:name="com.selina.teamplayer.Welcome"  android:theme="@style/Anim_style2"  />
+        <activity android:name="com.selina.teamplayer.PlayerRegister"  android:theme="@style/Anim_style2"  />
+            <activity android:name="com.selina.teamplayer.googlemap"  android:theme="@style/Anim_style2" />
+             <activity android:name="com.selina.teamplayer.Checkin"  android:theme="@style/Anim_style2" />
+        <activity android:name="com.selina.teamplayer.Whatsnew"  android:theme="@style/Anim_style2" />
+        <activity android:name="com.selina.teamplayer.ChatActivity"  android:theme="@android:style/Theme.NoTitleBar" />
+        <activity android:name="com.selina.teamplayer.ShakeActivity"  android:theme="@android:style/Theme.NoTitleBar" />
+        <activity android:name="com.selina.teamplayer.InfoXiaohei"  android:theme="@android:style/Theme.NoTitleBar" />
+        <activity android:name="com.selina.teamplayer.Exit" android:theme="@style/MyDialogStyle" />        
+        <activity android:name="com.selina.teamplayer.ExitFromSettings" android:theme="@style/MyDialogStyleBottom" /> 
+        <activity android:name="com.selina.teamplayer.InfoXiaoheiHead" android:theme="@style/HeadScale" />
+        <activity android:name="com.selina.teamplayer.LoadingActivity" android:theme="@style/MyDialogStyle" />             
+        <activity android:name="com.selina.teamplayer.MainTopRightDialog" android:theme="@style/MyDialogStyleTop" /> 
     </application>
 
 </manifest>

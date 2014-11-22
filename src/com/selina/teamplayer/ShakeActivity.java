@@ -1,6 +1,6 @@
-package cn.buaa.myweixin;
+package com.selina.teamplayer;
 
-import com.selina.teamplayer.R;
+
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -18,7 +18,9 @@ import android.widget.SlidingDrawer;
 import android.widget.Toast;
 import android.widget.SlidingDrawer.OnDrawerCloseListener;
 import android.widget.SlidingDrawer.OnDrawerOpenListener;
-import cn.buaa.myweixin.ShakeListener.OnShakeListener;
+
+import com.selina.teamplayer.R;
+import com.selina.teamplayer.ShakeListener.OnShakeListener;
 
 public class ShakeActivity extends Activity{
 	

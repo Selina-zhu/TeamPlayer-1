@@ -1,4 +1,4 @@
-package cn.buaa.myweixin;
+package com.selina.teamplayer;
 
 import android.content.Context;
 import android.hardware.Sensor;

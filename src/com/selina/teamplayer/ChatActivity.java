@@ -1,9 +1,8 @@
-package cn.buaa.myweixin;
-import com.selina.teamplayer.R;
+package com.selina.teamplayer;
+
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.drawable.LevelListDrawable;
@@ -15,6 +14,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
+import com.selina.teamplayer.R;
 
 
 /**
