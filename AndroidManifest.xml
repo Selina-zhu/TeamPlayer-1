@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.selina.teamplayer"
     android:versionCode="3"
-    android:versionName="1.03" >
+    android:versionName="1.03" > 
 
     <uses-sdk
         android:minSdkVersion="17"
@@ -10,6 +10,7 @@
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission  android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"></uses-permission>
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.SEND_SMS"/>
     
@@ -66,6 +67,11 @@
         <activity android:name="com.selina.teamplayer.InfoXiaoheiHead" android:theme="@style/HeadScale" />
         <activity android:name="com.selina.teamplayer.LoadingActivity" android:theme="@style/MyDialogStyle" />             
         <activity android:name="com.selina.teamplayer.MainTopRightDialog" android:theme="@style/MyDialogStyleTop" /> 
+        <activity android:name="MedOptionsActivity"  android:theme="@style/Anim_style2" />
+        <activity android:name="AddMedicationActivity"  android:theme="@style/Anim_style2" />
+        <activity android:name="EditMedicationActivity"  android:theme="@style/Anim_style2" />
+        <receiver android:name="com.selina.teamplayer.AlarmReceiver"/>
+        <service android:name="com.selina.teamplayer.MedicationSchedulingService" />
     </application>
 
 </manifest>

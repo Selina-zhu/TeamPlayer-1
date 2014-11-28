@@ -32,19 +32,21 @@
            />
         
     </RelativeLayout>
-	<EditText 
+
+	<EditText
 	    android:id="@+id/firstname_edit"
 	    android:layout_width="fill_parent"
 	    android:layout_height="wrap_content"
 	    android:layout_below="@+id/login_top_layout"
-	    android:textColor="#000"
-	    android:textSize="15sp"
-	    android:layout_marginTop="25dp"
 	    android:layout_marginLeft="20dp"
 	    android:layout_marginRight="20dp"
-	    android:singleLine="true"
+	    android:layout_marginTop="25dp"
 	    android:background="@drawable/login_editbox"
-	    android:hint="DST2"/>
+	    android:hint="Player or Coach"
+	    android:singleLine="true"
+	    android:textColor="#000"
+	    android:textSize="15sp" />
+
 	<EditText 
 	    android:id="@+id/confirm_passwd_edit"
 	    android:layout_width="fill_parent"

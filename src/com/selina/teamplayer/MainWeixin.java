@@ -369,6 +369,8 @@ public class MainWeixin extends Activity {
 				Toast.LENGTH_SHORT).show();	
 		//startActivity(intent);	
 		//Toast.makeText(getApplicationContext(), "µã»÷�?Ë¹¦ÄÜ°´Å¥", Toast.LENGTH_LONG).show();
+   	  Intent intent = new Intent(MainWeixin.this,MedOptionsActivity.class);
+   	  startActivity(intent);
       }  	
 	public void startchat(View v) {      //�?¡ºÚ  ¶Ô»°½çÃæ
 		Intent intent = new Intent (MainWeixin.this,ChatActivity.class);			

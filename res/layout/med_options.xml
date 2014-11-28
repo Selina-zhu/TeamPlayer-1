@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#eee"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/medoptions_top_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/title_bar" >
+
+        <Button
+            android:id="@+id/medoptions_reback_btn"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/title_btn_back"
+            android:onClick="returnPre"
+            android:text="Return"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="MedOptions"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+       
+    <Button
+        android:id="@+id/Button02"
+        android:layout_width="112dp"
+        android:layout_height="92dp"
+        android:layout_below="@+id/Button01"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp"
+        android:background="@drawable/btn_style_green"
+        android:onClick="editMedication"
+        android:text="@string/edit_med"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="112dp"
+        android:layout_height="92dp"
+        android:layout_alignLeft="@+id/Button02"
+        android:layout_below="@+id/medoptions_top_layout"
+        android:layout_marginTop="54dp"
+        android:background="@drawable/btn_style_green"
+        android:onClick="addMedication"
+        android:text="@string/add_med"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+</RelativeLayout>

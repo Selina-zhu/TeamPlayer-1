@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#eee"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/addmed_top_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/title_bar" >
+
+        <Button
+            android:id="@+id/addmed_reback_btn"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/title_btn_back"
+            android:onClick="returnPre"
+            android:text="Return"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtAddMed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Add Medication"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout><!-- addmed_top_layout -->
+    
+   <EditText
+       android:id="@+id/medname"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:layout_below="@+id/addmed_top_layout"
+       android:layout_marginTop="5dp"
+       android:background="@drawable/login_editbox"
+       android:ems="10"
+       android:hint="@string/medicationname" 
+       android:singleLine="true"
+       android:textColor="#000"
+       android:textSize="15sp"/>
+   
+   <EditText
+	    android:id="@+id/medIntruction"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/medname"
+	    android:background="@drawable/login_editbox"
+	    android:ems="10"
+	    android:text="Medical Instruction: take 1 pill, by mouth, at bedtime"
+	    android:textColor="#000"
+        android:textSize="15sp"
+	    android:inputType="textMultiLine">
+	    <requestFocus />
+	</EditText> 
+	
+  <EditText
+        android:id="@+id/txtDatePicket1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/medIntruction"
+        android:background="@drawable/login_editbox"
+        android:inputType="date"
+        android:ems="10"
+        android:hint="start date (mm/dd/yyyy)"
+        android:singleLine="true"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:onClick="popupCalendar"/>   
+    
+     
+     <EditText
+        android:id="@+id/txtTimePicket11"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtDatePicket1"
+        android:background="@drawable/login_editbox"
+        android:inputType="time"
+        android:ems="10"
+        android:hint="Alert Time(hh:ss)"
+        android:singleLine="true"
+        android:textColor="#000"
+        android:textSize="15sp" 
+        android:onClick="popupTime"/>
+         
+     	<ToggleButton 
+			    android:id="@+id/togglebutton"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_alignParentLeft="true"
+			    android:layout_below="@+id/txtTimePicket11"
+			    android:layout_marginTop="1dp"
+			    android:textOn="Remainder On"
+			    android:textOff="Remainder Off"
+			    android:onClick="onToggleClicked"/> 
+     
+  <Button
+        android:id="@+id/button1"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="19dp"
+        android:background="@drawable/btn_style_green"
+        android:text="@string/done"
+        android:textColor="#ffffff" 
+        android:textSize="18sp"
+        android:onClick="addMedication"/> 
+	
+ 
+</RelativeLayout>
